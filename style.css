@@ -1,0 +1,64 @@
+/* utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 50px;
+}
+.button{
+    background-color: #21B573;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+} 
+.button:hover{
+    background-color: #1ec77b;
+}
+.orange-text{
+    color: #FD511A;
+}
+.green-text{
+    color: #21B573;
+}
+
+/* header */
+.header{
+    background-color: #F0FFF0;
+}
+
+/* work and features */
+.card{
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    transition: 0.5s;
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgrey,-5px 5px 10px lightgrey;
+    cursor: pointer;
+}
+
+/* online course */
+#online-course .card{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgrey, -5px 5px 10px lightgrey;
+}
+#online-course .card .card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+/* subscribe */
+#subscribe{
+    height: 250px;
+    border-radius: 15px;
+    background: linear-gradient(135deg,#0BAB64,#3BB78F);
+}
+
+/* bottom */
+#footer{
+    margin: 0;
+}
+#footer ul li a{
+    color: white;
+}
