@@ -1,4 +1,7 @@
 /* utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     margin-bottom: 50px;
 }
